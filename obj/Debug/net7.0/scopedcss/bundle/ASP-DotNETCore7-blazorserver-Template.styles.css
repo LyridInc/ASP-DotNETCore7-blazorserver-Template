@@ -1,0 +1,324 @@
+/* _content/ASP-DotNETCore7-blazorserver-Template/App.razor.rz.scp.css */
+.container[b-46p2akb6ga] {
+  padding: 0 2rem;
+}
+
+.main[b-46p2akb6ga] {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container[b-46p2akb6ga] {
+  padding: 0;
+  margin: 0;
+}
+
+.left[b-46p2akb6ga] {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.atas[b-46p2akb6ga] {
+  padding-left: 350px;
+}
+
+.logo[b-46p2akb6ga] {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 0;
+  text-align: left;
+  user-select: none;
+}
+
+.title[b-46p2akb6ga] {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  color: white;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.subtitle[b-46p2akb6ga] {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+}
+
+.mascot[b-46p2akb6ga] {
+  width: 550px;
+  user-select: none;
+}
+
+.right[b-46p2akb6ga] {
+  width: 50%;
+  display: flex;
+}
+
+.docsEx[b-46p2akb6ga] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boxRight[b-46p2akb6ga] {
+  z-index: 99;
+  width: 450px;
+  border: 2px solid #654CE1;
+  border-radius: 5px;
+  padding: 15px 25px;
+  margin: 10px 0;
+  margin-left: 100px;
+}
+
+.boxRight:hover[b-46p2akb6ga] {
+  border-color: #444;
+}
+
+.boxTitle[b-46p2akb6ga] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.docs[b-46p2akb6ga] {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #444444;
+  margin: 0;
+  padding: 7px 0;
+}
+
+.arrow[b-46p2akb6ga] {
+  height: 20px;
+  width: 20px;
+  user-select: none;
+}
+
+.ex[b-46p2akb6ga] {
+  margin: 0;
+  color: #707070;
+  font-size: 21px;
+  padding: 7px 0;
+  font-weight: 400;
+}
+
+@media (max-width: 1400px) {
+  .grid[b-46p2akb6ga] {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .atas[b-46p2akb6ga] {
+    padding-left: 275px;
+  }
+
+  .logo[b-46p2akb6ga] {
+    width: 100px;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: left;
+  }
+
+  .title[b-46p2akb6ga] {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .subtitle[b-46p2akb6ga] {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 12.5px;
+  }
+
+  .mascot[b-46p2akb6ga] {
+    width: 475px;
+  }
+
+  .boxRight[b-46p2akb6ga] {
+    width: 325px;
+    border: 2px solid #654CE1;
+    background: #fff;
+    margin-left: 150px;
+  }
+
+  .docs[b-46p2akb6ga] {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #444444;
+    margin: 0;
+    padding: 7px 0;
+  }
+
+  .ex[b-46p2akb6ga] {
+    margin: 0;
+    color: #707070;
+    font-size: 15px;
+    padding: 7px 0;
+    font-weight: 400;
+  }
+}
+/* _content/ASP-DotNETCore7-blazorserver-Template/Shared/MainLayout.razor.rz.scp.css */
+.page[b-rpy1gz04ic] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-rpy1gz04ic] {
+    flex: 1;
+}
+
+.sidebar[b-rpy1gz04ic] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-rpy1gz04ic] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-rpy1gz04ic]  a, .top-row .btn-link[b-rpy1gz04ic] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-rpy1gz04ic] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-rpy1gz04ic] {
+        display: none;
+    }
+
+    .top-row.auth[b-rpy1gz04ic] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-rpy1gz04ic], .top-row .btn-link[b-rpy1gz04ic] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-rpy1gz04ic] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-rpy1gz04ic] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-rpy1gz04ic] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-rpy1gz04ic], article[b-rpy1gz04ic] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/ASP-DotNETCore7-blazorserver-Template/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-kleazt3ncz] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-kleazt3ncz] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-kleazt3ncz] {
+    font-size: 1.1rem;
+}
+
+.oi[b-kleazt3ncz] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-kleazt3ncz] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-kleazt3ncz] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-kleazt3ncz] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-kleazt3ncz]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-kleazt3ncz]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-kleazt3ncz]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-kleazt3ncz] {
+        display: none;
+    }
+
+    .collapse[b-kleazt3ncz] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+    
+    .nav-scrollable[b-kleazt3ncz] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}
